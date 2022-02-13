@@ -22,7 +22,7 @@ const Auth = () => {
         }
       };
     
-      const googleError = () => {
+      const googleError = (error) => {
         console.log(error);
       };
 
